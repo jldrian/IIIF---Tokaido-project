@@ -1,0 +1,57 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://jldrian.github.io/IIIF - Tokaido project/manifests/test_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "日本橋─日本国道路元標",
+  "metadata" : [ {
+    "label" : "Title",
+    "value" : [ "日本橋─日本国道路元標", "Nihonbashi (Zero Milestone in Japan)" ]
+  }, {
+    "label" : "Unit",
+    "value" : [ "Billy Ireland Cartoon Library and Museum" ]
+  }, {
+    "label" : "Creator",
+    "value" : [ "Okamoto, Ippei, 1886-1948", "岡本一平, 1886-1948" ]
+  }, {
+    "label" : "Permanent Link",
+    "value" : "<a href=\"https://hdl.handle.net/1811/74de56a8-7625-41f1-b028-9cd00c7ca7c2\">https://hdl.handle.net/1811/74de56a8-7625-41f1-b028-9cd00c7ca7c2</a>"
+  }, {
+    "label" : "Subject",
+    "value" : [ ]
+  }, {
+    "label" : "Rights",
+    "value" : "<a  href=\"http://rightsstatements.org/vocab/NoC-US/1.0/\">http://rightsstatements.org/vocab/NoC-US/1.0/</a>"
+  }, {
+    "label" : "Identifier",
+    "value" : [ ]
+  } ],
+  "sequences" : [ {
+    "@id" : "https://library.osu.edu/dc/concern/generic_works/bz60d892b/sequence/normal",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://library.osu.edu/dc/concern/file_sets/fj236g12w",
+      "@type" : "sc:Canvas",
+      "width" : 7947,
+      "height" : 5982,
+      "label" : "Canvas-fj236g12w",
+      "images" : [ {
+        "@id" : "https://library.osu.edu/dc/concern/file_sets/fj236g12w/images",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://library.osu.edu/dc/concern/file_sets/fj236g12w",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 7947,
+          "height" : 5982,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://library.osu.edu/loris/fj236g12w.jp2",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://library.osu.edu/dc/concern/file_sets/fj236g12w"
+      } ]
+    } ]
+  } ]
+}
