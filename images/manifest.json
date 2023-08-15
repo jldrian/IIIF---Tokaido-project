@@ -1,0 +1,67 @@
+{
+  "id" : "https://jldrian.github.io/IIIF - Tokaido project/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in jldrian/IIIF---Tokaido-project project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3600,
+    "id" : "https://jldrian.github.io/IIIF - Tokaido project/images/test/canvas/",
+    "label" : {
+      "none" : [ "test" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jldrian.github.io/IIIF - Tokaido project/images/test/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jldrian.github.io/IIIF - Tokaido project/images/test/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 113,
+              "height" : 85
+            }, {
+              "width" : 225,
+              "height" : 170
+            }, {
+              "width" : 450,
+              "height" : 339
+            }, {
+              "width" : 900,
+              "height" : 678
+            }, {
+              "width" : 1800,
+              "height" : 1355
+            }, {
+              "width" : 3600,
+              "height" : 2710
+            } ],
+            "profile" : "level0",
+            "width" : 3600,
+            "id" : "https://jldrian.github.io/IIIF - Tokaido project/images/test",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2710
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3600,
+          "id" : "https://jldrian.github.io/IIIF - Tokaido project/images/test/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 2710
+        },
+        "target" : "https://jldrian.github.io/IIIF - Tokaido project/images/test/canvas/"
+      } ]
+    } ],
+    "height" : 2710
+  } ]
+}
