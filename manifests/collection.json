@@ -1,0 +1,13 @@
+{
+  "id" : "https://jldrian.github.io/IIIF - Tokaido project/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in jldrian/IIIF---Tokaido-project project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://jldrian.github.io/IIIF - Tokaido project/manifests/test_manifest.json",
+    "label" : "日本橋─日本国道路元標"
+  } ]
+}
