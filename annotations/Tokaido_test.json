@@ -1,0 +1,51 @@
+{
+  "@context" : "http://www.w3.org/ns/anno.jsonld",
+  "id" : "https://jldrian.github.io/IIIF - Tokaido project/annotations/Tokaido_test.json",
+  "type" : "AnnotationCollection",
+  "title" : "Tokaido test",
+  "description" : "",
+  "creator" : "",
+  "editor" : "",
+  "rights" : "",
+  "date" : "2023-08-15",
+  "modified" : "2023-08-15",
+  "source" : "https://library.osu.edu/loris/fj236g12w.jp2/info.json",
+  "format" : "Adno",
+  "total" : 1,
+  "first" : {
+    "id" : "page1",
+    "type" : "AnnotationPage",
+    "startIndex" : 0,
+    "items" : [ {
+      "type" : "Annotation",
+      "body" : [ {
+        "type" : "TextualBody",
+        "value" : "Lampost",
+        "purpose" : "commenting"
+      }, {
+        "type" : "HTMLBody",
+        "value" : "<p>Lampost</p>",
+        "purpose" : "commenting"
+      } ],
+      "target" : {
+        "source" : "https://library.osu.edu/loris/fj236g12w.jp2",
+        "selector" : {
+          "type" : "FragmentSelector",
+          "conformsTo" : "http://www.w3.org/TR/media-frags/",
+          "value" : "xywh=pixel:2142.87548828125,293.3694152832031,605.074462890625,1290.8255310058594"
+        }
+      },
+      "@context" : "http://www.w3.org/ns/anno.jsonld",
+      "id" : "#bfe5bc43-4c31-415d-97ea-4f5313843669"
+    } ]
+  },
+  "adno_settings" : {
+    "delay" : 5,
+    "showNavigator" : true,
+    "toolsbarOnFs" : true,
+    "sidebarEnabled" : true,
+    "startbyfirstanno" : false,
+    "rotation" : false,
+    "displayToolbar" : true
+  }
+}
