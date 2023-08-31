@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://jldrian.github.io/IIIF - Tokaido project/annotations/Tokaido_test.json" ],
+  "otherContent" : [ "https://jldrian.github.io/IIIF - Tokaido project/annotations/Tokaido_test.json", "https://jldrian.github.io/IIIF - Tokaido project/annotations/Tokaido_annotations.json" ],
   "@id" : "https://jldrian.github.io/IIIF - Tokaido project/annotations/collection.json",
   "label" : "All annotations loaded in jldrian/IIIF---Tokaido-project project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
