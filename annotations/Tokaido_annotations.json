@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Lampost",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Lampost</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/142060609",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-08-31T17:20:21",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1693502420100",
+    "dcterms:modified" : "2023-08-31T17:20:21",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://library.osu.edu/dc/concern/generic_works/bz60d892b/manifest"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4650,519,1394,3004"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4650.19255,519.28136h697.18463v0h697.18463v1501.82013v1501.82013h-697.18463h-697.18463v-1501.82013z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_f0c19c53-5d42-4c90-be93-9c90f661809d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://library.osu.edu/dc/concern/file_sets/fj236g12w"
+    } ]
+  } ],
+  "@id" : "https://jldrian.github.io/IIIF - Tokaido project/annotations/Tokaido_annotations.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
